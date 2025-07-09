@@ -14,19 +14,21 @@ module.exports = {
       colors: {
         primary: {
           //Primary light
-          50: '#00add3',
+          50: '#EC1C24',
           //Primary dark
-          100: '#2d58a7',
+          100: '#660d10',
+          //Main dark
+          200: '#390016'
         },
         secondary: {
           //Secondary light
-          50: '#dde6f6',
+          50: '#e7797d',
           //Secondary dark
-          100: '#14274a',
+          100: '#660d10',
           //Color they use as bg when dark theme
-          200: '#0c1c38',
+          200: '#fff',
           //Dark theme table background and inputs
-          300: '#182740'
+          300: '#e7797d'
         },
       },
       transitionProperty: {

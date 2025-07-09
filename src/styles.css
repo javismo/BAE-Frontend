@@ -136,14 +136,14 @@ markdown blockquote {
 
 markdown code {
   font-family: monospace;
-  background-color: #2d58a7;
+  background-color: #EC1C24;
   padding: 0.2em 0.4em;
   border-radius: 3px;
 }
 
 markdown pre {
   font-family: monospace;
-  background-color: #2d58a7;
+  background-color: #EC1C24;
   padding: 0.5em;
   border-radius: 3px;
   overflow: auto;
@@ -161,11 +161,11 @@ markdown table td {
 }
 
 markdown table th {
-  background-color: #2d58a7;
+  background-color: #EC1C24;
 }
 
 markdown body.dark table th {
-  background-color: #2d58a7;
+  background-color: #EC1C24;
 }
 
 markdown img {
@@ -174,7 +174,7 @@ markdown img {
 }
 
 markdown a {
-  color: #007bff;
+  color: #EC1C24;
   text-decoration: none;
 }
 

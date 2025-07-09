@@ -18,9 +18,9 @@
     --secondaryGradient: linear-gradient(268.91deg, #581B98 -2.14%, #9C1DE7 99.69%);
     --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
-    --primary: #581B98;
-    --primary-dark-blue: #2D58A7;
-    --secondary-dark-blue: #1D3C78;
+    --primary: #EC1C24;
+    --primary-dark-blue: #EC1C24;
+    --secondary-dark-blue: #390016;
     --secondary-light-blue: #DDE6F6;
     --type-white: #FFFFFF;
 }
