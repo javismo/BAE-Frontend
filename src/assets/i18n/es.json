@@ -2,7 +2,7 @@
     "_yes": "Yes",
     "_no": "No",
     "DASHBOARD": {
-        "_title": "Libelium Data Space Catalogue is out! See what's new",
+        "_title": "Local Digital Twins & Data Spaces is out! See what's new",
         "_header": "Digital Trust to move forward",
         "_subheader": "Join the first open distributed marketplace ecosystem for cloud, edge & AI services in Europe.",
         "_new": "New",
@@ -71,7 +71,7 @@
     },
     "HOWITWORKS":{
         "_title": "How It Works",
-        "_subtitle": "Discover how Libelium Data Space Catalogue connects you to Europe's finest cloud and edge services",
+        "_subtitle": "Discover how Local Digital Twins & Data Spaces connects you to Europe's finest cloud and edge services",
         "CUSTOMERS":{
             "_title": "For customers",
             "_subtitle": "Discover",
@@ -107,12 +107,12 @@
         "_title": "Explore the Distributed Open Marketplace Project",
         "_subtitle": "Whether you're seeking in-depth reports, latest updates or upcoming events, everything ou need to know is just a click away",
         "_events_title": "Events and Webinars",
-        "_events_desc": "Join us at our next event or webinar to connect with fellow innovators, learn from industry leaders and discover new opportunities within the 'Libelium Data Space Catalogue' Project's ecosystem.",
+        "_events_desc": "Join us at our next event or webinar to connect with fellow innovators, learn from industry leaders and discover new opportunities within the 'Local Digital Twins & Data Spaces' Project's ecosystem.",
         "_updates_title": "Latest Updates and News",
-        "_updates_desc": "Stay informed with the latest developments, service enhancements and industry insights directly from the 'Libelium Data Space Catalogue' Project's website.",
+        "_updates_desc": "Stay informed with the latest developments, service enhancements and industry insights directly from the 'Local Digital Twins & Data Spaces' Project's website.",
         "_resources_title": "Resources & Reports",
-        "_resources_desc": "Access our library of resources, detailed reports and case studies to gain a deep understanding of the cloud and edge market landscape and 'Libelium Data Space Catalogue' Project's impact.",
-        "_go": "Libelium Data Space Catalogue Project"
+        "_resources_desc": "Access our library of resources, detailed reports and case studies to gain a deep understanding of the cloud and edge market landscape and 'Local Digital Twins & Data Spaces' Project's impact.",
+        "_go": "Local Digital Twins & Data Spaces Project"
     },
     "CARD": {
         "_details": "View details",
@@ -167,7 +167,7 @@
         "_rights": "All Rights Reserved"
     },
     "HEADER": {
-        "_marketplace": "Libelium Data Space Catalogue",
+        "_marketplace": "Local Digital Twins & Data Spaces",
         "_open_menu": "Open main menu",
         "_home": "Home",
         "_catalogs": "Catalogues",
@@ -544,7 +544,7 @@
         "_verify": "Verify Certificates",
         "_how_to_verify": "How to get a valid VC of the certificate?",
         "_verify_text": "To get a valid VC of the certificate you can access the ",
-        "_dome_trust": "Libelium Data Space Catalogue Trust Service Provider for Certification",
+        "_dome_trust": "Local Digital Twins & Data Spaces Trust Service Provider for Certification",
         "_file_res": "File restrictions",
         "_restrictions": "File size must be under 3MB. File names can only include characters (a-z), (A-Z), (0-9), and a limited set of symbols including underscores (_), hyphens (-), and periods (.). ",
         "_file_name": "Image URL should end by png, jpg, jpeg, gif, bmp or webp format."
