@@ -7,8 +7,9 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      display: ['Blinker', 'IBM\\ Plex\\ Mono', 'Menlo', 'monospace'],
-      body: ['Blinker', 'IBM\\ Plex\\ Mono', 'Menlo', 'monospace'],
+      // Si también quieres que las fuentes sean temáticas, puedes aplicar el mismo patrón:
+      display: ['var(--theme-font-display)', 'Blinker', 'IBM\\ Plex\\ Mono', 'Menlo', 'monospace'],
+      body: ['var(--theme-font-body)', 'Blinker', 'IBM\\ Plex\\ Mono', 'Menlo', 'monospace']
     },
     extend: {
       colors: {
@@ -28,9 +29,15 @@ module.exports = {
           //Color they use as bg when dark theme
           200: '#fff',
           //Dark theme table background and inputs
-          300: '#e7797d'
+          300: '#e7797d',
+          400: 'rgb(var(--theme-secondary-400) / <alpha-value>)',
+          500: 'rgb(var(--theme-secondary-500) / <alpha-value>)'
         },
       },
+      tertiary: {
+          50: 'rgb(var(--theme-tertiary-50) / <alpha-value>)', //BG color for dark theme
+          100: 'rgb(var(--theme-tertiary-100) / <alpha-value>)' //BG color for dark theme
+        },
       transitionProperty: {
         width: "width"
       },
@@ -50,21 +57,21 @@ module.exports = {
         fadeInOut: 'fadeInOut 5s ease-in-out infinite',
       },
       gridTemplateColumns:
-      {
-        '60/40': '60% 40%',
-        '80/20': '80% 20%',
-        '40/60': '40% 60%',
-        '25/75': '25% 75%',
-        '20/80': '20% 80%',
-        '10/90': '10% 90%'
-      },
+        {
+          '60/40': '60% 40%',
+          '80/20': '80% 20%',
+          '40/60': '40% 60%',
+          '25/75': '25% 75%',
+          '20/80': '20% 80%',
+          '10/90': '10% 90%'
+        },
       gridTemplateRows:
-      {
-        '60/40': '60% 40%',
-        '80/20': '80% 20%',
-        '20/80': '20% 80%',
-        '10/90': '10% 90%'
-      },
+        {
+          '60/40': '60% 40%',
+          '80/20': '80% 20%',
+          '20/80': '20% 80%',
+          '10/90': '10% 90%'
+        },
       maxHeight: {
         '3/4': '75%',
       },
@@ -73,6 +80,5 @@ module.exports = {
   plugins: [
     require('flowbite/plugin')
   ],
-  darkMode: 'class'
+  darkMode: 'class' // Esto es compatible con nuestro enfoque de clase por tema
 }
-
